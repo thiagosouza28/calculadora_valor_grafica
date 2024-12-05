@@ -112,7 +112,7 @@ export function Calculator() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-6">
-      <div className="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-1 gap-6">
+      <div className="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
